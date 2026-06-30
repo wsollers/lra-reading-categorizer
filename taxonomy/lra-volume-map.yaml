@@ -1,0 +1,164 @@
+version: 1
+status: scaffold
+description: >
+  Editable mapping from the reading categorizer taxonomy to the current LRA
+  volume/book/chapter structure. Empty fields mean the category is useful for
+  the reading library but does not yet have a single canonical LRA target.
+mappings:
+  - main_slug: 00-foundations
+    sub_slug: mathematical-logic
+    lra_volume: volume-i
+    lra_book: mathematical-logic-and-proof
+    lra_chapter: ""
+    notes: Logic/proof foundations.
+  - main_slug: 00-foundations
+    sub_slug: proof-theory
+    lra_volume: volume-vii
+    lra_book: proof-theory
+    lra_chapter: ""
+    notes: Advanced proof theory.
+  - main_slug: 00-foundations
+    sub_slug: model-theory
+    lra_volume: volume-vii
+    lra_book: model-theory
+    lra_chapter: ""
+    notes: Model theory sources.
+  - main_slug: 00-foundations
+    sub_slug: set-theory
+    lra_volume: volume-i
+    lra_book: set-theory
+    lra_chapter: ""
+    notes: Foundational set theory.
+  - main_slug: 00-foundations
+    sub_slug: category-theory
+    lra_volume: volume-vii
+    lra_book: category-theory
+    lra_chapter: ""
+    notes: Category theory sources.
+  - main_slug: 00-foundations
+    sub_slug: type-theory
+    lra_volume: volume-vii
+    lra_book: type-theory
+    lra_chapter: ""
+    notes: Type theory and dependent types.
+  - main_slug: 01-algebra
+    sub_slug: abstract-algebra
+    lra_volume: volume-vi
+    lra_book: algebra
+    lra_chapter: ""
+    notes: General algebra.
+  - main_slug: 01-algebra
+    sub_slug: linear-algebra
+    lra_volume: volume-vi
+    lra_book: linear-algebra
+    lra_chapter: ""
+    notes: Linear algebra.
+  - main_slug: 01-algebra
+    sub_slug: lattice-and-order-theory
+    lra_volume: volume-vi
+    lra_book: lattice-and-order-theory
+    lra_chapter: ""
+    notes: Lattices and ordered structures.
+  - main_slug: 02-number-theory
+    sub_slug: elementary-number-theory
+    lra_volume: volume-ii
+    lra_book: discrete-number-systems
+    lra_chapter: ""
+    notes: Number systems and elementary arithmetic.
+  - main_slug: 03-analysis
+    sub_slug: calculus
+    lra_volume: volume-iii
+    lra_book: differentiation
+    lra_chapter: ""
+    notes: Calculus, differentiation, and integration.
+  - main_slug: 03-analysis
+    sub_slug: real-analysis
+    lra_volume: volume-iii
+    lra_book: continuity
+    lra_chapter: ""
+    notes: Real analysis and limits.
+  - main_slug: 03-analysis
+    sub_slug: measure-theory
+    lra_volume: volume-v
+    lra_book: measure-theory
+    lra_chapter: ""
+    notes: Measure theory.
+  - main_slug: 03-analysis
+    sub_slug: integration-theory
+    lra_volume: volume-iii
+    lra_book: integration
+    lra_chapter: ""
+    notes: Integration sources.
+  - main_slug: 03-analysis
+    sub_slug: functional-analysis
+    lra_volume: volume-v
+    lra_book: functional-analysis
+    lra_chapter: ""
+    notes: Functional analysis.
+  - main_slug: 03-analysis
+    sub_slug: complex-analysis
+    lra_volume: volume-v
+    lra_book: complex-analysis
+    lra_chapter: ""
+    notes: Complex analysis.
+  - main_slug: 04-topology-and-geometry
+    sub_slug: point-set-topology
+    lra_volume: volume-iv
+    lra_book: mathematical-spaces
+    lra_chapter: ""
+    notes: Topological spaces and metric spaces.
+  - main_slug: 04-topology-and-geometry
+    sub_slug: metric-geometry
+    lra_volume: volume-iv
+    lra_book: mathematical-spaces
+    lra_chapter: ""
+    notes: Metric spaces and metric geometry.
+  - main_slug: 04-topology-and-geometry
+    sub_slug: euclidean-and-classical-geometry
+    lra_volume: volume-i
+    lra_book: foundational-geometry
+    lra_chapter: ""
+    notes: Classical geometry.
+  - main_slug: 04-topology-and-geometry
+    sub_slug: differential-geometry
+    lra_volume: volume-i
+    lra_book: foundational-geometry
+    lra_chapter: ""
+    notes: Differential geometry until a later dedicated target exists.
+  - main_slug: 06-probability-statistics-and-information
+    sub_slug: probability-theory
+    lra_volume: volume-v
+    lra_book: probability
+    lra_chapter: ""
+    notes: Probability theory.
+  - main_slug: 07-discrete-mathematics-and-combinatorics
+    sub_slug: combinatorics
+    lra_volume: volume-ii
+    lra_book: discrete-number-systems
+    lra_chapter: ""
+    notes: Discrete mathematics bridge.
+  - main_slug: 08-applied-and-computational-mathematics
+    sub_slug: numerical-analysis
+    lra_volume: volume-viii
+    lra_book: numerical-foundations
+    lra_chapter: ""
+    notes: Numerical foundations.
+  - main_slug: 08-applied-and-computational-mathematics
+    sub_slug: scientific-computing
+    lra_volume: volume-viii
+    lra_book: applied-methods
+    lra_chapter: ""
+    notes: Applied methods.
+  - main_slug: 09-theoretical-computer-science
+    sub_slug: automata-and-formal-languages
+    lra_volume: volume-viii
+    lra_book: applied-methods
+    lra_chapter: ""
+    notes: TCS/application bridge.
+  - main_slug: 09-theoretical-computer-science
+    sub_slug: programming-languages-and-semantics
+    lra_volume: volume-vii
+    lra_book: lambda-calculus
+    lra_chapter: ""
+    notes: Lambda calculus and programming language semantics.
+

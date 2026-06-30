@@ -1,0 +1,233 @@
+version: 1
+status: proposed
+description: >
+  Proposed modern mathematics subject taxonomy for manually categorizing a
+  local PDF reading library. Folder names are stable slugs; labels are the
+  user-facing names a GUI can display.
+subjects:
+  - slug: 00-foundations
+    label: Foundations
+    children:
+      - slug: mathematical-logic
+        label: Mathematical Logic
+      - slug: proof-theory
+        label: Proof Theory
+      - slug: model-theory
+        label: Model Theory
+      - slug: set-theory
+        label: Set Theory
+      - slug: category-theory
+        label: Category Theory
+      - slug: type-theory
+        label: Type Theory
+      - slug: foundations-of-mathematics
+        label: Foundations of Mathematics
+
+  - slug: 01-algebra
+    label: Algebra
+    children:
+      - slug: abstract-algebra
+        label: Abstract Algebra
+      - slug: group-theory
+        label: Group Theory
+      - slug: ring-theory
+        label: Ring Theory
+      - slug: field-and-galois-theory
+        label: Field and Galois Theory
+      - slug: commutative-algebra
+        label: Commutative Algebra
+      - slug: linear-algebra
+        label: Linear Algebra
+      - slug: multilinear-and-tensor-algebra
+        label: Multilinear and Tensor Algebra
+      - slug: representation-theory
+        label: Representation Theory
+      - slug: homological-algebra
+        label: Homological Algebra
+      - slug: lattice-and-order-theory
+        label: Lattice and Order Theory
+      - slug: universal-algebra
+        label: Universal Algebra
+
+  - slug: 02-number-theory
+    label: Number Theory
+    children:
+      - slug: elementary-number-theory
+        label: Elementary Number Theory
+      - slug: algebraic-number-theory
+        label: Algebraic Number Theory
+      - slug: analytic-number-theory
+        label: Analytic Number Theory
+      - slug: arithmetic-geometry
+        label: Arithmetic Geometry
+      - slug: modular-forms-and-elliptic-curves
+        label: Modular Forms and Elliptic Curves
+
+  - slug: 03-analysis
+    label: Analysis
+    children:
+      - slug: calculus
+        label: Calculus
+      - slug: real-analysis
+        label: Real Analysis
+      - slug: measure-theory
+        label: Measure Theory
+      - slug: integration-theory
+        label: Integration Theory
+      - slug: functional-analysis
+        label: Functional Analysis
+      - slug: harmonic-analysis
+        label: Harmonic Analysis
+      - slug: complex-analysis
+        label: Complex Analysis
+      - slug: several-complex-variables
+        label: Several Complex Variables
+      - slug: convex-analysis
+        label: Convex Analysis
+      - slug: distributions-and-generalized-functions
+        label: Distributions and Generalized Functions
+
+  - slug: 04-topology-and-geometry
+    label: Topology and Geometry
+    children:
+      - slug: point-set-topology
+        label: Point-Set Topology
+      - slug: algebraic-topology
+        label: Algebraic Topology
+      - slug: differential-topology
+        label: Differential Topology
+      - slug: manifolds
+        label: Manifolds
+      - slug: differential-geometry
+        label: Differential Geometry
+      - slug: riemannian-geometry
+        label: Riemannian Geometry
+      - slug: metric-geometry
+        label: Metric Geometry
+      - slug: euclidean-and-classical-geometry
+        label: Euclidean and Classical Geometry
+      - slug: algebraic-geometry
+        label: Algebraic Geometry
+      - slug: geometric-analysis
+        label: Geometric Analysis
+
+  - slug: 05-differential-equations-and-dynamical-systems
+    label: Differential Equations and Dynamical Systems
+    children:
+      - slug: ordinary-differential-equations
+        label: Ordinary Differential Equations
+      - slug: partial-differential-equations
+        label: Partial Differential Equations
+      - slug: dynamical-systems
+        label: Dynamical Systems
+      - slug: ergodic-theory
+        label: Ergodic Theory
+      - slug: calculus-of-variations
+        label: Calculus of Variations
+      - slug: mathematical-physics
+        label: Mathematical Physics
+
+  - slug: 06-probability-statistics-and-information
+    label: Probability, Statistics, and Information
+    children:
+      - slug: probability-theory
+        label: Probability Theory
+      - slug: stochastic-processes
+        label: Stochastic Processes
+      - slug: stochastic-calculus
+        label: Stochastic Calculus
+      - slug: mathematical-statistics
+        label: Mathematical Statistics
+      - slug: information-theory
+        label: Information Theory
+      - slug: statistical-learning-theory
+        label: Statistical Learning Theory
+
+  - slug: 07-discrete-mathematics-and-combinatorics
+    label: Discrete Mathematics and Combinatorics
+    children:
+      - slug: combinatorics
+        label: Combinatorics
+      - slug: graph-theory
+        label: Graph Theory
+      - slug: enumerative-combinatorics
+        label: Enumerative Combinatorics
+      - slug: extremal-combinatorics
+        label: Extremal Combinatorics
+      - slug: discrete-mathematics
+        label: Discrete Mathematics
+      - slug: optimization
+        label: Optimization
+      - slug: operations-research
+        label: Operations Research
+
+  - slug: 08-applied-and-computational-mathematics
+    label: Applied and Computational Mathematics
+    children:
+      - slug: numerical-analysis
+        label: Numerical Analysis
+      - slug: scientific-computing
+        label: Scientific Computing
+      - slug: numerical-linear-algebra
+        label: Numerical Linear Algebra
+      - slug: approximation-theory
+        label: Approximation Theory
+      - slug: control-theory
+        label: Control Theory
+      - slug: signal-processing
+        label: Signal Processing
+      - slug: computer-graphics-geometry-processing
+        label: Computer Graphics and Geometry Processing
+      - slug: mathematical-biology
+        label: Mathematical Biology
+      - slug: mathematical-finance
+        label: Mathematical Finance
+
+  - slug: 09-theoretical-computer-science
+    label: Theoretical Computer Science
+    children:
+      - slug: automata-and-formal-languages
+        label: Automata and Formal Languages
+      - slug: computability
+        label: Computability
+      - slug: computational-complexity
+        label: Computational Complexity
+      - slug: algorithms
+        label: Algorithms
+      - slug: programming-languages-and-semantics
+        label: Programming Languages and Semantics
+      - slug: formal-methods
+        label: Formal Methods
+      - slug: cryptography
+        label: Cryptography
+      - slug: quantum-computation
+        label: Quantum Computation
+
+  - slug: 10-history-philosophy-and-pedagogy
+    label: History, Philosophy, and Pedagogy
+    children:
+      - slug: history-of-mathematics
+        label: History of Mathematics
+      - slug: philosophy-of-mathematics
+        label: Philosophy of Mathematics
+      - slug: mathematical-exposition
+        label: Mathematical Exposition
+      - slug: education-and-pedagogy
+        label: Education and Pedagogy
+
+  - slug: 11-reference-and-miscellaneous
+    label: Reference and Miscellaneous
+    children:
+      - slug: reference
+        label: Reference
+      - slug: problem-books
+        label: Problem Books
+      - slug: lecture-notes
+        label: Lecture Notes
+      - slug: proceedings-and-collections
+        label: Proceedings and Collections
+      - slug: interdisciplinary
+        label: Interdisciplinary
+      - slug: uncategorized
+        label: Uncategorized
+
