@@ -9,3 +9,4 @@ build/
 managed-pdfs/
 raw-pdfs/
 
+.claude/
