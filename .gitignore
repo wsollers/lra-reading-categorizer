@@ -10,3 +10,7 @@ managed-pdfs/
 raw-pdfs/
 
 .claude/
+
+# Local Google Drive upload scratch directories
+.tmp.driveupload/
+**/.tmp.driveupload/
